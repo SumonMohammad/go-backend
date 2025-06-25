@@ -2,7 +2,7 @@
 
 set -eu
 
-declare -a SERVICES=("sms-pusher" "auth" "me" "portfolio" "bazar" "bank-info" "admin-portal" "email-pusher" "bank" "varys" "tyrion" "zag-webhook" "backoffice" "app-settings" "market-data-feed" "health" "feed-parser" "itch-dispatcher" "oms-admin-portal" "order-manager" "order-executor" "risk-manager" "mercurius" "trade-capture" "oms-auth" "oms-user-management" "commission" "backtrade" "oms-portfolio")
+declare -a SERVICES=("portfolio" "oms-auth" "oms-user-management" "oms-portfolio")
 
 IFS=' '; \
 for service in "${SERVICES[@]}"; \

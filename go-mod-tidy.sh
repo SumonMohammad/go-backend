@@ -2,7 +2,7 @@
 
 go mod tidy  # for backend
 
-declare -a arr=("sms-pusher" "auth" "me" "portfolio" "bazar" "bank-info" "email-pusher" "bank" "varys" "centrifugo-proxy" "tyrion" "admin-portal" "zag-webhook" "backoffice" "app-settings" "market-data-feed" "health" "feed-parser" "itch-dispatcher"  "oms-admin-portal" "order-manager" "order-executor" "risk-manager" "mercurius" "trade-capture" "oms-auth" "oms-user-management" "commission" "backtrade" "oms-portfolio")
+declare -a arr=("portfolio" "oms-auth" "oms-user-management" "oms-portfolio")
 
 for i in "${arr[@]}"
 do

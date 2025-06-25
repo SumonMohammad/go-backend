@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare -a allServices=("sms-pusher" "auth" "me" "guest" "bazar" "bank-info" "portfolio" "admin-portal" "swagger" "kong" "backoffice" "health" "feed-parser" "oms-admin-portal" "order-manager" "order-executor" "risk-manager" "mercurius" "trade-capture" "commission")
+declare -a allServices=("portfolio" "oms-auth" "oms-user-management" "oms-portfolio")
 if [[ $service == "" ]]; then
     echo -e '\033[31m 🚫 no service provided'
     exit 1

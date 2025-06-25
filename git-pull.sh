@@ -5,7 +5,7 @@ echo " 🧲 pulling the main branch of all repositories from git 🧲 "
 echo "♠backend"
 git pull origin main
 
-declare -a arr=("sms-pusher" "email-pusher" "auth" "me" "bazar" "bank-info" "portfolio" "admin-portal" "bank" "varys" "tyrion" "backoffice" "market-data-feed" "health" "feed-parser" "oms-admin-portal" "order-manager" "order-executor" "risk-manager" "mercurius" "trade-capture" "oms-user-management" "commission" "backtrade" "oms-portfolio")
+declare -a arr=("portfolio" "oms-auth" "oms-user-management" "oms-portfolio")
 
 for i in "${arr[@]}"
 do
