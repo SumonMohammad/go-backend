@@ -3,7 +3,7 @@ package pubsub
 import (
 	"context"
 	"fmt"
-	"github.com/rafian-git/go-backend/utility"
+	"github.com/SumonMohammad/go-backend/utility"
 	"github.com/segmentio/kafka-go"
 	"os"
 	"os/signal"

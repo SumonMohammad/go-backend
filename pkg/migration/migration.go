@@ -6,11 +6,11 @@ import (
 	"io/fs"
 	"net/http"
 
+	"github.com/SumonMohammad/go-backend/pkg/sqlxdb"
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/golang-migrate/migrate/v4/database/postgres"
 	"github.com/golang-migrate/migrate/v4/source"
 	"github.com/golang-migrate/migrate/v4/source/httpfs"
-	"github.com/rafian-git/go-backend/pkg/sqlxdb"
 )
 
 type Direction string

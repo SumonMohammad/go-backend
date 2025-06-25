@@ -1,7 +1,7 @@
 package pubsub
 
 import (
-	"github.com/rafian-git/go-backend/pkg/log"
+	"github.com/SumonMohammad/go-backend/pkg/log"
 	"github.com/segmentio/kafka-go"
 )
 

@@ -2,9 +2,9 @@ package miniocloud
 
 import (
 	"context"
+	"github.com/SumonMohammad/go-backend/pkg/log"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/rafian-git/go-backend/pkg/log"
 	"time"
 )
 

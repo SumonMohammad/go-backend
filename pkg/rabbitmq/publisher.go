@@ -3,8 +3,8 @@ package rabbitmq
 import (
 	"context"
 	"fmt"
+	"github.com/SumonMohammad/go-backend/utility"
 	amqp "github.com/rabbitmq/amqp091-go"
-	"github.com/rafian-git/go-backend/utility"
 	"go.uber.org/zap"
 	"sync"
 	"time"

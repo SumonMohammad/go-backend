@@ -2,8 +2,8 @@ package centrifugo
 
 import (
 	"context"
+	"github.com/SumonMohammad/go-backend/pkg/log"
 	"github.com/centrifugal/gocent/v3"
-	"github.com/rafian-git/go-backend/pkg/log"
 )
 
 type Socket interface {

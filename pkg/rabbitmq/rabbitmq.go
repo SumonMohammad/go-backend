@@ -2,8 +2,8 @@ package rabbitmq
 
 import (
 	"errors"
+	"github.com/SumonMohammad/go-backend/pkg/log"
 	ampq "github.com/rabbitmq/amqp091-go"
-	"github.com/rafian-git/go-backend/pkg/log"
 	"time"
 )
 
