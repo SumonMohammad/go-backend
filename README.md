@@ -1,2 +1,2 @@
 # go-backend
-creating a microservice within one command
+backend packages for go micro-services 
