@@ -2,7 +2,7 @@ module github.com/SumonMohammad/go-backend
 
 go 1.22.7
 
-//replace github.com/SumonMohammad/go-backend => ../go-backend
+replace github.com/SumonMohammad/go-backend => ../go-backend
 require (
 	cloud.google.com/go/storage v1.44.0
 	github.com/centrifugal/gocent/v3 v3.2.0

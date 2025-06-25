@@ -17,7 +17,7 @@ if [ -z $SERVICE ] || [ "$SERVICE" = "$service" ] || [ "$SERVICE" = "" ]; then
   export API_VERSION=$(git name-rev --tags --name-only $(git rev-parse HEAD)); \
   export COMMIT_HASH=$(git rev-parse HEAD); \
   export BUILT_AT=$(LC_ALL=C date -u '+%d %B %Y %r (UTC)'); \
-  export ROOT="gitlab.techetronventures.com/core/${service}"; \
+  export ROOT="github.com/SumonMohammad/${service}"; \
   export IMPORT_VERSION="${ROOT}/internal/${service}/version"; \
   export LDFLAGS="-w -s -X '${IMPORT_VERSION}.Version=${GIT_TAG}' \
   -X '${IMPORT_VERSION}.APIVersion=${API_VERSION}' \
